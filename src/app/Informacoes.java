@@ -70,7 +70,7 @@ public class Informacoes extends javax.swing.JFrame {
                 .addGap(34, 34, 34))
         );
 
-        lblEscopoSobre.setText("<html><blockquote>\n<p>&nbsp; &nbsp; &nbsp;Este jogo foi desenvolvido com objetivo de cumprir o crit&eacute;rio avaliativo da disciplina F&aacute;brica de Software, da Universidade de Santa Cruz do Sul.</p>\n<p>&nbsp; &nbsp; &nbsp;Os alunos respons&aacute;veis pelo software s&atilde;o Nicolas Fischer e Bruno Bolzan, orientados pelos professores Ivan S. e Gilson H. com compet&ecirc;ncia 1/2021.</p>\n</blockquote></html>"); // NOI18N
+        lblEscopoSobre.setText("<html><blockquote> <p>&nbsp; &nbsp; &nbsp;Este jogo foi desenvolvido com objetivo de cumprir o crit&eacute;rio avaliativo da disciplina F&aacute;brica de Software, da Universidade de Santa Cruz do Sul.</p> <p>&nbsp; &nbsp; &nbsp;Os alunos respons&aacute;veis pelo software s&atilde;o Nicolas Fischer e Bruno Bolzan, orientados pelos professores Ivan S. e Gilson H. com compet&ecirc;ncia 1/2021.</p> </blockquote></html>"); // NOI18N
         lblEscopoSobre.setToolTipText("");
 
         btnSiteUnisc1.setText("Acessar site");
@@ -116,7 +116,7 @@ public class Informacoes extends javax.swing.JFrame {
                 .addComponent(btnSiteUnisc1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblUrlUNISC)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         pack();

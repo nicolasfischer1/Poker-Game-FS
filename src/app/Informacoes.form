@@ -56,7 +56,7 @@
               <Component id="btnSiteUnisc1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="lblUrlUNISC" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="76" max="32767" attributes="0"/>
+              <EmptySpace pref="92" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -111,7 +111,7 @@
     </Container>
     <Component class="javax.swing.JLabel" name="lblEscopoSobre">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;blockquote&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Este jogo foi desenvolvido com objetivo de cumprir o crit&amp;eacute;rio avaliativo da disciplina F&amp;aacute;brica de Software, da Universidade de Santa Cruz do Sul.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Os alunos respons&amp;aacute;veis pelo software s&amp;atilde;o Nicolas Fischer e Bruno Bolzan, orientados pelos professores Ivan S. e Gilson H. com compet&amp;ecirc;ncia 1/2021.&lt;/p&gt;&#xa;&lt;/blockquote&gt;&lt;/html&gt;" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;blockquote&gt; &lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Este jogo foi desenvolvido com objetivo de cumprir o crit&amp;eacute;rio avaliativo da disciplina F&amp;aacute;brica de Software, da Universidade de Santa Cruz do Sul.&lt;/p&gt; &lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Os alunos respons&amp;aacute;veis pelo software s&amp;atilde;o Nicolas Fischer e Bruno Bolzan, orientados pelos professores Ivan S. e Gilson H. com compet&amp;ecirc;ncia 1/2021.&lt;/p&gt; &lt;/blockquote&gt;&lt;/html&gt;" noResource="true"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
