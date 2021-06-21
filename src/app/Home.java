@@ -17,7 +17,9 @@ public class Home extends javax.swing.JFrame {
      * Creates new form home
      */
     public Home() {
+        
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -183,7 +185,7 @@ public class Home extends javax.swing.JFrame {
             jogadores = Integer.parseInt(txfNJogadores.getText()); // Converte a entrada para inteiro
             if (jogadores < 5 && jogadores > 0){ // Compara se o valor está entre 0 e 4 (menor que 5 e maior que 0)
                 JOptionPane.showMessageDialog(null, "Fico feliz que você digitou um número válido. Vamos lá!");  // Exibe mensagem de sucesso
-                new Jogar().setVisible(true);    // Abre a tela Game
+                new Jogar(jogadores).setVisible(true);    // Abre a tela Game
                 this.dispose(); // Fecha a tela Home
             } else {
                 JOptionPane.showMessageDialog(null, "Número incompatível!");  // Exibe mensagem de erro quando número for inválido

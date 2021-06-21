@@ -17,7 +17,9 @@ public class Informacoes extends javax.swing.JFrame {
      * Creates new form Informacoes
      */
     public Informacoes() {
+        
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

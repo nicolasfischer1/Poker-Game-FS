@@ -17,7 +17,9 @@ public class Ajuda extends javax.swing.JFrame {
      * Creates new form Ajuda
      */
     public Ajuda() {
+       
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
