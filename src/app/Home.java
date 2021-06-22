@@ -72,7 +72,7 @@ public class Home extends javax.swing.JFrame {
         });
 
         lblSaudacao.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
-        lblSaudacao.setText("Você pode optar até 4 jogadores.");
+        lblSaudacao.setText("Você pode optar por 2 - 4 jogadores.");
 
         btnJogar.setText("Jogar");
         btnJogar.addActionListener(new java.awt.event.ActionListener() {
@@ -93,25 +93,23 @@ public class Home extends javax.swing.JFrame {
         panelJogadoresLayout.setHorizontalGroup(
             panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelJogadoresLayout.createSequentialGroup()
-                .addGroup(panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelJogadoresLayout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addGroup(panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panelJogadoresLayout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(lblSaudacao))
-                            .addGroup(panelJogadoresLayout.createSequentialGroup()
-                                .addComponent(txtNJogadores)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txfNJogadores, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(panelJogadoresLayout.createSequentialGroup()
-                        .addGap(96, 96, 96)
-                        .addComponent(btnJogar)))
-                .addContainerGap(31, Short.MAX_VALUE))
-            .addGroup(panelJogadoresLayout.createSequentialGroup()
                 .addComponent(btnAjuda)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnInformacoes))
+            .addGroup(panelJogadoresLayout.createSequentialGroup()
+                .addGroup(panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelJogadoresLayout.createSequentialGroup()
+                        .addGap(96, 96, 96)
+                        .addComponent(btnJogar))
+                    .addGroup(panelJogadoresLayout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblSaudacao)
+                            .addGroup(panelJogadoresLayout.createSequentialGroup()
+                                .addComponent(txtNJogadores)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txfNJogadores, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
         panelJogadoresLayout.setVerticalGroup(
             panelJogadoresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -147,7 +145,7 @@ public class Home extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(lblSaudacao1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(lblSaudacao2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(101, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -168,7 +166,7 @@ public class Home extends javax.swing.JFrame {
 
     private void btnAjudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAjudaActionPerformed
         new Ajuda().setVisible(true);    // Abre a tela Game
-        this.dispose(); // Fecha a tela Home        // TODO add your handling code here:
+        //this.dispose(); // Fecha a tela Home        // TODO add your handling code here:
     }//GEN-LAST:event_btnAjudaActionPerformed
 
     private void btnInformacoesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInformacoesActionPerformed
@@ -183,7 +181,7 @@ public class Home extends javax.swing.JFrame {
         int jogadores = 0;
         try{
             jogadores = Integer.parseInt(txfNJogadores.getText()); // Converte a entrada para inteiro
-            if (jogadores < 5 && jogadores > 0){ // Compara se o valor está entre 0 e 4 (menor que 5 e maior que 0)
+            if (jogadores < 5 && jogadores > 1){ // Compara se o valor está entre 0 e 4 (menor que 5 e maior que 0)
                 JOptionPane.showMessageDialog(null, "Fico feliz que você digitou um número válido. Vamos lá!");  // Exibe mensagem de sucesso
                 new Jogar(jogadores).setVisible(true);    // Abre a tela Game
                 this.dispose(); // Fecha a tela Home

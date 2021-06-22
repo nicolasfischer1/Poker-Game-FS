@@ -31,46 +31,16 @@ public class Ajuda extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        panelAjuda = new javax.swing.JPanel();
         lblAjuda = new javax.swing.JLabel();
-        lblHome = new javax.swing.JButton();
         lblEscopoAjuda = new javax.swing.JLabel();
         btnSiteAjuda = new javax.swing.JButton();
         lblUrlAjuda = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         lblAjuda.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         lblAjuda.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblAjuda.setText("Poker Game - Ajuda");
-
-        lblHome.setText("Home");
-        lblHome.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lblHomeActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout panelAjudaLayout = new javax.swing.GroupLayout(panelAjuda);
-        panelAjuda.setLayout(panelAjudaLayout);
-        panelAjudaLayout.setHorizontalGroup(
-            panelAjudaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelAjudaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(lblHome)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblAjuda)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        panelAjudaLayout.setVerticalGroup(
-            panelAjudaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelAjudaLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(panelAjudaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblAjuda)
-                    .addComponent(lblHome))
-                .addGap(18, 18, 18))
-        );
 
         lblEscopoAjuda.setText("<html><p>&nbsp; &nbsp; &nbsp;Do ingl&ecirc;s <strong>poker</strong>, consiste em um jogo de cartas jogado por duas ou mais pessoas muito comum em&nbsp;casinos. &Eacute; considerado o jogo de cartas mais popular do mundo.</p>\n<p>&nbsp; &nbsp; &nbsp;A partida <span style=\"text-decoration: underline;\">come&ccedil;a</span> da seguinte maneira: o distribuir de cartas p&otilde;e tr&ecirc;s cartas no meio da mesa e duas para cada jogador. Todos tem a chance de apostar. Ap&oacute;s isso, &eacute; virada a quarta carta adicionada ao lado das tr&ecirc;s j&aacute; expostas na mesa. Todos podem apostar de novo. Depois &eacute; virada a quinta carta e todos podem apostar antes de revelar as cartas.</p>\n<p>&nbsp; &nbsp; &nbsp;Ap&oacute;s a exibi&ccedil;&atilde;o das cartas de cada jogador: quem, com suas cartas combinadas com as da mesa, tiver a combina&ccedil;&atilde;o mais valiosa &eacute; o <span style=\"text-decoration: underline;\">vencedor</span>. Em caso de empate o valor das apostas &eacute; divido entre os ganhadores de igual forma!</p></html>"); // NOI18N
         lblEscopoAjuda.setToolTipText("");
@@ -97,28 +67,28 @@ public class Ajuda extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(162, 162, 162)
-                        .addComponent(panelAjuda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(239, 239, 239)
-                        .addComponent(btnSiteAjuda)))
+                        .addComponent(btnSiteAjuda))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(225, 225, 225)
+                        .addComponent(lblAjuda)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(193, Short.MAX_VALUE)
+                    .addContainerGap(198, Short.MAX_VALUE)
                     .addComponent(lblUrlAjuda)
-                    .addContainerGap(194, Short.MAX_VALUE)))
+                    .addContainerGap(199, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(panelAjuda, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(41, 41, 41)
+                .addComponent(lblAjuda)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblEscopoAjuda, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27)
                 .addComponent(btnSiteAjuda)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(62, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                     .addContainerGap(351, Short.MAX_VALUE)
@@ -128,13 +98,6 @@ public class Ajuda extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void lblHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lblHomeActionPerformed
-        new Home().setVisible(true);    // Abre a tela Game
-        this.dispose(); // Fecha a tela Home
-
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lblHomeActionPerformed
 
     private void btnSiteAjudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSiteAjudaActionPerformed
 
@@ -186,8 +149,6 @@ public class Ajuda extends javax.swing.JFrame {
     private javax.swing.JButton btnSiteAjuda;
     private javax.swing.JLabel lblAjuda;
     private javax.swing.JLabel lblEscopoAjuda;
-    private javax.swing.JButton lblHome;
     private javax.swing.JLabel lblUrlAjuda;
-    private javax.swing.JPanel panelAjuda;
     // End of variables declaration//GEN-END:variables
 }
