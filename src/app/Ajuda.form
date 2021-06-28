@@ -23,50 +23,55 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="74" max="32767" attributes="0"/>
-              <Component id="lblEscopoAjuda" min="-2" pref="446" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
-                      <Component id="btnSiteAjuda" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="225" max="-2" attributes="0"/>
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
                       <Component id="lblAjuda" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="84" pref="84" max="-2" attributes="0"/>
+                      <Component id="lblEscopoAjuda" min="-2" pref="446" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                      <Component id="btnSiteAjuda1" min="-2" pref="180" max="-2" attributes="0"/>
+                      <EmptySpace min="130" pref="130" max="-2" attributes="0"/>
+                      <Component id="btnSiteAjuda" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="108" max="32767" attributes="0"/>
           </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="198" max="32767" attributes="0"/>
-                  <Component id="lblUrlAjuda" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="199" max="32767" attributes="0"/>
-              </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblUrlAjuda1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+              <Component id="lblUrlAjuda" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
               <Component id="lblAjuda" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="lblEscopoAjuda" min="-2" pref="228" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-              <Component id="btnSiteAjuda" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="62" max="32767" attributes="0"/>
-          </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="351" max="32767" attributes="0"/>
-                  <Component id="lblUrlAjuda" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="41" max="32767" attributes="0"/>
+              <EmptySpace min="17" pref="17" max="-2" attributes="0"/>
+              <Component id="lblEscopoAjuda" min="-2" pref="290" max="-2" attributes="0"/>
+              <EmptySpace min="45" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnSiteAjuda1" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Component id="btnSiteAjuda" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblUrlAjuda" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblUrlAjuda1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="49" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -83,7 +88,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblEscopoAjuda">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Do ingl&amp;ecirc;s &lt;strong&gt;poker&lt;/strong&gt;, consiste em um jogo de cartas jogado por duas ou mais pessoas muito comum em&amp;nbsp;casinos. &amp;Eacute; considerado o jogo de cartas mais popular do mundo.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;A partida &lt;span style=&quot;text-decoration: underline;&quot;&gt;come&amp;ccedil;a&lt;/span&gt; da seguinte maneira: o distribuir de cartas p&amp;otilde;e tr&amp;ecirc;s cartas no meio da mesa e duas para cada jogador. Todos tem a chance de apostar. Ap&amp;oacute;s isso, &amp;eacute; virada a quarta carta adicionada ao lado das tr&amp;ecirc;s j&amp;aacute; expostas na mesa. Todos podem apostar de novo. Depois &amp;eacute; virada a quinta carta e todos podem apostar antes de revelar as cartas.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Ap&amp;oacute;s a exibi&amp;ccedil;&amp;atilde;o das cartas de cada jogador: quem, com suas cartas combinadas com as da mesa, tiver a combina&amp;ccedil;&amp;atilde;o mais valiosa &amp;eacute; o &lt;span style=&quot;text-decoration: underline;&quot;&gt;vencedor&lt;/span&gt;. Em caso de empate o valor das apostas &amp;eacute; divido entre os ganhadores de igual forma!&lt;/p&gt;&lt;/html&gt;" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;div&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;O jogo de Poker &amp;eacute; considerado o jogo de cartas mais popular do mundo. Ele consiste em etapas, nas quais, ocorrem apostas entre jogadores, a partir da distribui&amp;ccedil;&amp;atilde;o de cartas. Veja cada passo a baixo para entender melhor o jogo.&lt;/p&gt;&#xa;&lt;/div&gt;&#xa;&lt;div&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1) &amp;Eacute; realizada uma aposta cega.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2) Os jogadores recebem suas cartas, anteriormente embaralhadas.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;3) Todos apostam novamente, tendo em vista suas cartas.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4) O respons&amp;aacute;vel por embaralhar e distribuir as cartas, ir&amp;aacute; p&amp;ocirc;r &amp;agrave;s tr&amp;ecirc;s primeiras cartas da mesa.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;5) Todos apostam novamente, tendo as &amp;uacute;ltimas cartas postas.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;6) &amp;Eacute; posta a quarta carta na mesa.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;7) Todos apostam novamente, tendo vista a &amp;uacute;ltima carta posta.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;8) P&amp;otilde;e-se a quinta carta na mesa.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;9) Aposta-se novamente, tendo em vista todas as cartas.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;10) Todos os jogadores mostram suas cartas e &amp;eacute; definido o vencedor.&lt;/p&gt;&#xa;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;11) O vencedor leva todo valor apostado!&lt;/p&gt;&#xa;&lt;/div&gt;&#xa;&lt;/html&gt;" noResource="true"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
@@ -102,6 +107,23 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="www.pt.wikipedia.org/wiki/P%C3%B4quer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSiteAjuda1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Combina&#xe7;&#xf5;es de cartas"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSiteAjuda1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUrlAjuda1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="10" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="https://bit.ly/3gZ1gCa"/>
       </Properties>
     </Component>
   </SubComponents>
